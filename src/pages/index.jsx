@@ -41,12 +41,12 @@ export default function Home() {
   return (
     <div className={styles.body}>      
       <Head>
-        <title>Create Next App</title>
+        <title>Code Explainer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
        <img src='/favicon.ico' className={styles.icon} alt="AI Icon" />
-       <h3>Explain me this code</h3>
+       <h3>Code explainer</h3>
        <form onSubmit={onSubmit}>
           <textarea
             type='text'
